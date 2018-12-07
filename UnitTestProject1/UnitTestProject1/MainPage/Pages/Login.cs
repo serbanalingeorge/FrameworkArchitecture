@@ -5,8 +5,8 @@ namespace UnitTestProject1.Pages
 {
     public class Login
     {
-        private string _email = "serbanalingeorge@yahoo.com";
-        private string _password = "Eustiuasta23";
+        private string _email = "";
+        private string _password = "";
 
         [FindsBy(How = How.Id, Using = "username")]
         private IWebElement emailAddressTextField;
